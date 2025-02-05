@@ -1,7 +1,7 @@
 import allure
-from allure_commons._allure import step
 from appium.webdriver.common.appiumby import AppiumBy
 from selene import browser, have
+
 
 def test_onboarding_screen():
     with allure.step('Check open wiki onboarding screen'):
